@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game oF Guess </title>
+</head>
+<body>
+    <div id="caixa">
+        <h1>Adivinhe o Número</h1>
+        <p><strong>Selecionamos um número aleatório entre 1 e 100. Veja se consegue adivinhar em 10 chances ou menos. Lhe diremos se seu palpite está com valor alto ou baixo.</strong></p>
+        <label for="campoPalpite"><strong>Digite seu palpite:</strong></label>
+        <input type="text" id="campoPalpite" class="campoPalpite" placeholder="Número">
+        <input type="submit" value="Enviar" class="envioPalpite">
+        <div class="resultadoParas">
+            <p class="palpites"></p>
+            <p class="ultimoResultado"></p>
+            <p class="baixoOuAlto"></p>
+        </div>
+    </div>
+<script src="index.js"></script>    
+
+</body>
+</html>
